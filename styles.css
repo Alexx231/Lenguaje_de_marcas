@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 53px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar{
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: antiquewhite;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 23px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vh !important;
+    background: url(y una imagen bonita) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: sisiis;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: lo que yo quiera;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #el que yo quiera;
+    color: igual;
+    text-decoration: none;
+    background: lo mismo
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a es a enlace la a{
+    margin: 0 10px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #sisisi;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11px;
+    width: 17px;
+    background: #sisisisi;
+    text-align: center;
+    border-radius: 1px
+    box-shadow: 0. 3px 7px rgb tititititi
+    margin: 3px
+}
+
+.box-container .box i {
+    height: 2px;
+    width: 3px;
+    line-height: 4px;
+    text-align: center;
+    border-radius: 50%;
+    color: si;
+    background: tambien;
+    font-size: 3px;
+    margin: 2px 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: sisis;
+}
+
+.box-container .box p {
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+
+.about {
+    background: siisisis;
+}
+
+.price {
+    background: url siiiii no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: siisisisisiis;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau{
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
